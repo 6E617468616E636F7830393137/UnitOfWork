@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00-Assemblies", "00-Assemblies", "{F98915D0-E193-4001-820A-069FCA6E37C1}"
+	ProjectSection(SolutionItems) = preProject
+		Assemblies\App.config = Assemblies\App.config
+		Assemblies\log4net.config = Assemblies\log4net.config
+		Assemblies\Log4net.Helper.Logging.dll = Assemblies\Log4net.Helper.Logging.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00-Entities", "00-Entities", "{FB6AE575-2B1B-4EF7-8130-4889D2802227}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-Services", "01-Services", "{ECE110A9-97EB-4348-BCEA-5FA5E2D3C967}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-Data", "01-Data", "{E7EFC205-61B0-43D9-90B8-7B409E3C1E3B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-Business", "02-Business", "{17EDAC51-64FA-4BC1-93B6-68CEE9B4D389}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-Tests", "03-Tests", "{2F84B2B2-982B-49F0-B00F-27169A68A7C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitOfWork.Entities", "UnitOfWork.Entities\UnitOfWork.Entities.csproj", "{053AA356-9795-44FF-A44D-35AAD1A2FE31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitOfWork.Data", "UnitOfWork.Data\UnitOfWork.Data.csproj", "{BD0B95B7-07DF-4773-BC95-3FC4C2AAA31C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitOfWork.Business", "UnitOfWork.Business\UnitOfWork.Business.csproj", "{7AB13642-0F33-4BEE-98D7-0B5D65574B66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitOfWork.Api", "UnitOfWork.Api\UnitOfWork.Api.csproj", "{92EB2AA2-63A8-434A-941F-4A3F4145BBB7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{053AA356-9795-44FF-A44D-35AAD1A2FE31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{053AA356-9795-44FF-A44D-35AAD1A2FE31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{053AA356-9795-44FF-A44D-35AAD1A2FE31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{053AA356-9795-44FF-A44D-35AAD1A2FE31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD0B95B7-07DF-4773-BC95-3FC4C2AAA31C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD0B95B7-07DF-4773-BC95-3FC4C2AAA31C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD0B95B7-07DF-4773-BC95-3FC4C2AAA31C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD0B95B7-07DF-4773-BC95-3FC4C2AAA31C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AB13642-0F33-4BEE-98D7-0B5D65574B66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AB13642-0F33-4BEE-98D7-0B5D65574B66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AB13642-0F33-4BEE-98D7-0B5D65574B66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AB13642-0F33-4BEE-98D7-0B5D65574B66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92EB2AA2-63A8-434A-941F-4A3F4145BBB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92EB2AA2-63A8-434A-941F-4A3F4145BBB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92EB2AA2-63A8-434A-941F-4A3F4145BBB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92EB2AA2-63A8-434A-941F-4A3F4145BBB7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{053AA356-9795-44FF-A44D-35AAD1A2FE31} = {FB6AE575-2B1B-4EF7-8130-4889D2802227}
+		{BD0B95B7-07DF-4773-BC95-3FC4C2AAA31C} = {E7EFC205-61B0-43D9-90B8-7B409E3C1E3B}
+		{7AB13642-0F33-4BEE-98D7-0B5D65574B66} = {17EDAC51-64FA-4BC1-93B6-68CEE9B4D389}
+		{92EB2AA2-63A8-434A-941F-4A3F4145BBB7} = {2F84B2B2-982B-49F0-B00F-27169A68A7C0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {53A8ABDF-716A-40E6-8143-210CC2CB1934}
+	EndGlobalSection
+EndGlobal
